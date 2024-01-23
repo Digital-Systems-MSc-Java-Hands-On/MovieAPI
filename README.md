@@ -43,3 +43,16 @@ To add this library as a dependency add the following maven coordinates into you
 	    <artifactId>MovieAPI</artifactId>
 	    <version>0.0.1-SNAPSHOT</version>
 	</dependency>
+
+
+# How to use MovieAPI library in scope of Java labs
+
+1. Download project into your machine.
+`git clone https://github.com/Digital-Systems-MSc-Java-Hands-On/MovieAPI.git`
+
+2. Edit MovieAPI.java file and add your own API key like shown in the screenshot
+![SCR-20240123-ld4](https://github.com/Digital-Systems-MSc-Java-Hands-On/MovieApp/assets/15072613/6eca7bfb-183b-4ef0-9e00-405e9a32fbe8)
+
+3.  Open a terminal (powershell/cmd for windows or terminal/iterm for MacOS users) and browse into the MovieAPI folder and run the following command: 
+`mvn install`
+4. The MovieAPI library is now installed into your local .m2 maven repository. Library can now be used in other project such as the MovieApp by editing the pom.XML file and add as dependency.
